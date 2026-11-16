@@ -46,6 +46,10 @@ STEUERZEICHEN = {"\n": "LF (Zeilenumbruch)",
 # V6.1 als ISO-8859-1 gespeichert wird.
 C1_MUSTER = re.compile(r"[\x80-\x84\x86-\x9f]")
 
+# Struktur des Hexwerts: 0x + genau 6 Hexziffern, Groß-/Kleinschreibung egal.
+# Ob die Ziffern groß sind, prüft hexformat_pruef_logik() separat (A1).
+HEX_STRUKTUR = re.compile(r"0x[0-9A-Fa-f]{6}")
+
 # Erwartetes Format des Hexwerts, z.B. 0x000080
 HEX_MUSTER = re.compile(r"^0x[0-9A-Fa-f]{6}$")
 
@@ -329,14 +333,20 @@ def zeilenumbruch_pruef_logik(fehlerspeicher, rohelemente=None, zeilen=None):
 
 
 def hexformat_pruef_logik(fehlerspeicher, zeilen=None):
-    """Prüft den Hexwert gegen das Muster 0xHHHHHH."""
+    """Prüft den Hexwert: erst die Struktur 0xHHHHHH, dann Großbuchstaben,
+    dann Rand-Leerzeichen. Pro Datensatz wird höchstens ein Befund gemeldet."""
     treffer = []
     for i, fsp in enumerate(fehlerspeicher):
         roh = fsp[10]
-        if not HEX_MUSTER.match(roh.strip()):
+        wert = roh.strip()
+        if not HEX_STRUKTUR.fullmatch(wert):
             treffer.append((_z(zeilen, i), fsp,
                             f"Hexwert entspricht nicht 0xHHHHHH -> '{sichtbar(roh)}'"))
-        elif roh != roh.strip():
+        elif wert[2:] != wert[2:].upper():
+            treffer.append((_z(zeilen, i), fsp,
+                            f"Hexwert enthält Kleinbuchstaben -> '{wert}' "
+                            f"(erwartet '0x{wert[2:].upper()}')"))
+        elif roh != wert:
             treffer.append((_z(zeilen, i), fsp,
                             "Hexwert enthält führende/abschließende Leerzeichen"))
     return treffer

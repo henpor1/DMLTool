@@ -224,6 +224,19 @@ def test_hexformat(tmp_path, hexwert, erwartet_treffer):
 
     assert bool(treffer) is erwartet_treffer
 
+@pytest.mark.parametrize("hexwert", ["0x00e017", "0xabcdef", "0x0A0b0C"]) #V6.2
+def test_hexformat_meldet_kleinbuchstaben(tmp_path, hexwert):
+    """Hexziffern müssen Großbuchstaben sein, sonst eigener Befund (A1)."""
+    pfad = schreibe_dml(tmp_path,
+                        fehlerzeile(hexwert=hexwert),
+                        fehlerzeile(hexwert="0x00E017"))
+    fehlerspeicher, zeilen, _ = lade(pfad)
+
+    treffer = logik.hexformat_pruef_logik(fehlerspeicher, zeilen)
+
+    assert zeilen_von(treffer) == [4]
+    assert "Kleinbuchstaben" in gruende(treffer)[0]
+
 
 def test_dopplung_nennt_alle_fundzeilen(tmp_path):
     pfad = schreibe_dml(tmp_path,
