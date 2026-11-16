@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<steuergeraete>
+     <steuergeraet shortname="LL_ActuaForExterNoiseUDS" variante="EV*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SFD Role act
+ive    ">0x000080</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_ActuaForExterNoiseUDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SFD Role active Aktiv">0x000080</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SFD Role active Aktiv">0x000080</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Motor_14 MO_Gangposition unplausibles Signal">0xE00017</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Motor_14_MO_Gangposition Failure Value">0xE00026</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_ActuaForStrucBorneSoundUDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="0P8/0P9" fehlervorbedingung="" text="SFD Role active">0x000080</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Motor_14_MO_Gangposition Failure Value">0xE00026</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_AdaptCruisContrUDS" variante="EV_ACCBOSCHAU65X_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="FAULT_SYC_TRANSPORTMODE_ACTIVE">0x00006E</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="FAULT_TIMEOUT_PSD_04">0x000467</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="FAULT_TSK_IRREV_FAIL">0x000814</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="FAULT_ACA_QF_STATUS_DISPLAY_ERROR">0x000926</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="FAULT_CAMERA_ERROR">0x000929</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_AdaptCruisContrUDS" variante="EV_ACCBOSCHAU65X_002">
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="X650/0655" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="FAULT_LASER_NOT_AVAILABLE">0x000965</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="X650- /0655" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="FAULT_LASER_BLIND">0x000966</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_AirbaUDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="NWD:0x5F0Dimmung_01errorvalueDI_KL_58xd">0x100005</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="NWD:0x11EESP_08errorvalueESP_v_ref">0x101A05</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="NWD:0x11EESP_08errorvalueESC_Bremsdruckgradient">0x101A06</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="NWD:0x3BEMotor_14errorvalueMO_Gangposition">0x101D05</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="NWD:0x0A0LH_EPS_04Timeout">0x103400</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="NWD:0xTBDBV_SensorHeadererrorvalueBV2_NichtVerfuegbar">0x104209</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="NWD: 0x462 PSD_04 Timeout">0x104500</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="NWD: 0x484 NavData_01 Timeout">0x104B00</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="NWD: 0x486 NavPos_01 Timeout">0x104C00</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="NWD: 0x463 PSD_05 Timeout">0x104D00</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="NWD:zFAScommonDTCTimeout">0x105100</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="NWD:0x1A2ESP_15errorvalueVZM_Status">0x105B05</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="NWD:0x1A2ESP_15errorvalueVZMnotavailable">0x105B07</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_AirbaUDS" variante="EV_AirbaVW31SMEAU65x_*">
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="4521/4523" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="NWD: 0xTBD BV3_SensorHeader error value BV3_Fehler_MOD">0x10C005</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="4521/4523" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="NWD:0xTBD BV3_SensorHeader error value BV3_Fehler_FGE">0x10C006</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Multi Collision Brake no function">0x93BCF2</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Release active Passiv">0x984C00</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_AirCondiUDS" variante="EV_ACClimaBHTCPO623_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Transportmodus aktiv">0x000203</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Motor_14 MO_Gangposition unplausibles Signal">0xE0005</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Innenraumklimatisierung Funktionseinschränkung Start/Stopp">0xE000BE</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Innenraumklimatisierung Funktionseinschränkung A/C-Betrieb">0xE000BF</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="PSD_04 keine Kommunikation">0xE000C0</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_AntenContrModulUDS" variante="EV_DigitRoofAntenAU651_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ECU production mode active">0x020211</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ECU unlocked passiv">0x184C00</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_BatteChargContrModulUDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Error_high_voltage_activation_BMS">0x200701</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="3136/3122" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ICCPD_history_data_error">0x320027</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_BatteChargContrModulUDS" variante="EV_OBC3Phase1KLOMLBevPOP_*">
+          <fehler status_v="1" status_p="1" teilenummer="" softwareversion="3137" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ETHTRCV_30_AR7000_SLAC_STEP_3_PARAM_REQ_Timeout">0x321003</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_BatteChargContrModulUDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SFD_unlock_active Passiv">0x500000</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_BatteChargContrModulUDS" variante="EV_OBC3Phase1KLOMLBevPOP_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Supply_voltage_RAT">0xD00002</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_BatteChargContrModulUDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="error_hold_management_system">0xD12262</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_BatteEnergContrModulUDS" variante="EV_BECM1022171_*">
+          <fehler status_v="1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="BMC_F_SOK_signature_creation_failed">0x000017</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_BatteEnergContrModulUDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="BMC_F_SFD_Unlock_protection_of_vehicle_diagnosis_active Aktiv">0x000080</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="BMC_F_SFD_Developer_mode_active Passiv">0x000081</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_BatteEnergContrModulUDS" variante="EV_BECM1022171_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="4BI/4WE/7CV/7CW/7GH/7MM/4IJ" fehlervorbedingung="" text="OBC_F_BMC_GST01">0x0BC001</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_BatteEnergContrModulUDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="BMC_F_RunOn">0x100003</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="BMC_F_VariantCode_Inconsistency">0x100009</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_BatteEnergContrModulUDS" variante="EV_BECM1022171_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="BMC_S_Safety_Data_Storage_corrupted">0x100043</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_BatteEnergContrModulUDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="BMC_F_AFeS_Init_Exceeded">0x170601</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_BatteEnergContrModulUDS" variante="EV_BECM1022171_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="BJB_S_Pyro_Circuit">0x217000</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_BatteEnergContrModulUDS" variante="EV_*">
+          <fehler status_v="0" status_p="0" teilenummer="" softwareversion="Y513/X460" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Combine_event_BMC_C_HCP5_CANFD01_MSG_Message_TO">0xC80087</fehler>
+          <fehler status_v="0" status_p="0" teilenummer="" softwareversion="Y513/X460" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="BMC_C_HCP5_CANFD01_VDSO_05_TO">0xC8228C</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_BatteEnergContrModulUDS" variante="EV_BECM1022171_*">
+          <fehler status_v="1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Anti-theft protection - component protection">0xD10000</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Komponentenschutz GFA-Schlüssel">0xD20000</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_BeameModulMatriHeadlLeftUDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SFD Role active Aktiv">0xEA6888</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_BeameModulMatriHeadlRightUDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SFD Role active Aktiv">0xEA6888</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_BedienSG_hi_MSB" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SFD Role active Aktiv">0x000080</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_BedienSG_vo_MSB" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SFD Role active Aktiv">0x000080</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="DauerbetätigungTouch(Misuse)">0xC11010</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="TSG_FT_01keineKommunikation">0xE00009</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_Brake1UDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SFD Role Active">0x000300</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="HAL: FR-Timeoutfehler">0x000564</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="EFP: FR-Signalfehler">0x000574</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="EFP: Funktionseinschraenkung ESC durch unplausibles Signal">0x02E000</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="EFP: FR-Signalfehler">0x02E100</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="EFP: Funktionseinschraenkung ESC durch unplausibles Signal">0x02E200</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ComScl_SG_Airbag_03_Checksum">0x042900</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ZFAS: FR-Timeoutfehler">0x063200</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ZFAS: FR-Signalfehler">0x06E700</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Quersperre: Funktionseinschraenkung ESC durch unplausibles Signal">0x076700</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ZFAS: FR-Timeoutfehler">0x077B00</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ZFAS: FR-Timeoutfehler">0x077E00</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SAD: FR-Signalfehler">0xC40143</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="DME: FR-Signalfehler">0xEAB200</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Allrad: FR-Signalfehler">0xEAD600</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_BrakeBoostUDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SFD Role active Aktiv">0x000300</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ComScl_SG_Motor_Code_01_Timeout">0x027A00</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ComScl_PDU_PLA2_02_Timeout">0xD0042C</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Scl_PLA2_02_Parken_Notstoppsystem_aktivieren_CumulatedFailure">0xD0042E</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_BrakeBoostUDS" variante="EV_BrakeBoostBOSCHPO536_*">
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="0111" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ComScl_PDU_Motor_67_OBD_Timeout">0xEAC107</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_CentrElectUDS" variante="EV_BCM1BOSCHAU651_*">
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Production mode active">0x010010</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Transmissioncontrolmodule,faultydrivepositioninformationfromautomatic…">0x010146</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Instrumentclustercontrolmodule,errorvalueinoutside_temp_filt">0x010162</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Powersteeringcontrolmodule,nosignal/communication">0x010170</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="MxB not available">0x010897</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="EFPcontrolmodule,errorvalueinsignalFA_height-value_FL_00">0x020109</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="EFPcontrolmodule,errorvalueinsignalFA_height-value_RL_00">0x020110</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Parking assistance control module, no signal / communication">0x020368</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Brakecontrolmodule,receivederrorvalueinsignalESPsystemstatus">0x030096</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_CentrModulComfoSysteUDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Transmission control module, Getriebe_11, no signal/communication">0x010025</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Brake control module, ESP_21, no signal/communication">0x010045</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Production mode active">0x010067</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Brake control module, ESP_05, no signal/communication">0x0100C1</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Control module for central driver assistance systems, zFAS_01, no signal/communication">0x010110</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="EmergencyAssistcontrolmodule,EA_02,nosignal/communication">0x010111</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Control module for intelligent park assist, IPA_01, no signal/communication">0x010117</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Errordetectedinrollingmode">0x010189</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Unlock_protection_of_vehicle_diagnosis_active">0x010195</fehler>
+          <fehler status_v="0" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Engine control module not authorized">0x020050</fehler>
+          <fehler status_v="0" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Engine control module 4 not authorized">0x020053</fehler>
+          <fehler status_v="0" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Transmission control module not authorized">0x020054</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_Charg1MobilDevicUDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SFD Role active Aktiv">0x000080</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Klemmen_Status_01_no_communication">0x000101</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ECU unlocked">0x000206</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ECU unlocked">0x000206</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ECU unlocked">0x000206</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Klemmen_Status_01_no_communication">0x000207</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="BEM_02_timeout">0xE00001</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="BEM_02_timeout">0xE00001</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Klemmen_Status_01_no_communication">0xE00004</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Klemmen_Status_01_no_communication">0xE00005</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Klemmen_Status_01_no_communication">0xE00006</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="0501" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Gateway_72_no_communication">0xE00008</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Klemmen_Status_01_no_communication">0xE00010</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_Charg2MobilDevicUDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SFD Role active Aktiv">0x000080</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Klemmen_Status_01_no_communication">0x000101</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ECU unlocked">0x000206</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Klemmen_Status_01_no_communication">0x000207</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="BEM_02_timeout">0xE00001</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Klemmen_Status_01_no_communication">0xE00004</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Klemmen_Status_01_no_communication">0xE00005</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Klemmen_Status_01_no_communication">0xE00006</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Klemmen_Status_01_no_communication">0xE00010</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_ChassContrUDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SFD Role active">0x000080</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SFD Role active">0x000080</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Signalfehler_Airbag_Sensor">0x000412</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Datenbus fehlende Botschaft">0x040023</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Datenbus fehlende Botschaft">0x040033</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Datenbus fehlende Botschaft">0x040034</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="0820" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Timeout_Error_Allrad_07">0x040051</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Signalfehler_ESP_FZR_uebersteuern">0x04B00F</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Signalfehler_ESP_FZR_untersteuern">0x04B010</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Signalfehler_ESP_v_ref">0x04B03B</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Signalfehler_MPE_ADRHA_CtlModResp">0x04C032</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Transport mode active">0x050040</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_ContrUnitDigitMatriLightUDS" variante="EV_DigitMatriLightAU516_*">
+          <fehler status_v="-1" status_p="0" teilenummer="4KE907399M" softwareversion="3020" produktschluessel="F7*" ausstattung="8IU/8JU" fehlervorbedingung="" text="eth message Service_DML_ACF missing">0x000500</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="4KE907399M" softwareversion="3020" produktschluessel="F7*" ausstattung="8IU/8JU" fehlervorbedingung="" text="eth message Service_DML_EML missing">0x000501</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="4KE907399M" softwareversion="3020" produktschluessel="F7*" ausstattung="8IU/8JU" fehlervorbedingung="" text="eth message Service_DML_Fences missing">0x000502</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="4KE907399M" softwareversion="3020" produktschluessel="F7*" ausstattung="8IU/8JU" fehlervorbedingung="" text="eth message Service_DML_MXB missing">0x000503</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="4KE907399M" softwareversion="3020" produktschluessel="F7*" ausstattung="8IU/8JU" fehlervorbedingung="" text="eth message Service_DML_ObjectFusion missing">0x000504</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="4KE907399M" softwareversion="3020" produktschluessel="F7*" ausstattung="8IU/8JU" fehlervorbedingung="" text="eth message Service_DML_PerceptionAvail missing">0x000505</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="4KE907399M" softwareversion="3020" produktschluessel="F7*" ausstattung="8IU/8JU" fehlervorbedingung="" text="eth message Service_DML_RoadGraph missing">0x000506</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="eth message EPB_01 missing">0x000515</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="eth message Fahrwerk_01 missing">0x000517</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="eth message Getriebe_11 missing">0x000518</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="eth message LWI_01 missing">0x000519</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="4KE907399M" softwareversion="3020" produktschluessel="F7*" ausstattung="8IU/8JU" fehlervorbedingung="" text="eth message Service_DML_AHS missing">0x000530</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="4KE907399M" softwareversion="3020" produktschluessel="F7*" ausstattung="8IU/8JU" fehlervorbedingung="" text="eth message Service_DML_CalibMV missing">0x000531</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SPI-communication to controllers failure">0x000601</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="DML_headlamp_functional_limitation_dynamic_functions">0x000618</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="DML_headlamp_functional_limitation_adaptive_frontlight_system">0x000619</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="DML_headlamp_functional_limitation_high_beam_assist">0x000620</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="DML_headlamp_functional_limitation_safety_projections">0x000622</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="DML_headlamp_functional_limitation_light_projections">0x000623</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="DML_headlamp_functional_limitation_online_calibration">0x000624</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_DashBoardUDS" variante="EV_DashBoardLGEPO536_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SFD Role active Aktiv">0x000080</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Fehlfunktion der LVDS- Schnittstelle">0x110004</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Reset by External Watchdog">0x152004</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Ethernet-Datenbus Zweig 1 keine Kommunikation">0x300002</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="PSM Ausfall WarnID- Nr. 8">0xA00008</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Motorsteuerung Störung WarnID- Nr. 16">0xA00016</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Getriebe Notlauf WarnID- Nr. 18">0xA00018</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Spoiler Prio 2 Warnung WarnID- Nr. 20">0xA00020</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Systemfehler Airbag WarnID- Nr. 35 Passiv">0xA00035</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="FussgaengerS_Fehler WarnID-Nr. 37">0xA00037</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Schlüssel nicht im Fzg WarnID- Nr. 58">0xA00058</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Störung Fahrwerksystem Fahrweise anpassen Werkstatt aufsuchen WarnID- Nr. 78">0xA00078</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SIA ServiceNow">0xA00100</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Getriebe WarnID-Nr.181 Passiv">0xA00181</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Fahrwerksystem nicht funktionsbereit Fahrzeug verkehrssicher abstellen WarnI…">0xA00196</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Quersperre Störung  WarnID- Nr. 208">0xA00208</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="PDC_Service Warn ID-Nr 217">0xA00217</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Ölstand prüfen MAX WarnID- Nr. 222">0xA00222</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Ausfall Start/Stopp-Betrieb WarnID- Nr. 228">0xA00228</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Lenkhilfe Ausfallwarnung WarnID- Nr. 257">0xA00257</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Wegrollgefahr! P nicht möglich WarnID- Nr. 367">0xA00367</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Ausfall PACC WarnID- Nr. 432">0xA00432</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="eCall_gestoert WarnID-Nr.664">0xA00664</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="0182" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ARA_Status_01 keine Kommunikation">0xE0000B</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ESP_35 keine Kommunikation">0xE00025</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Klemmen_Status_01 keine Kommunikation">0xE00032</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Klemmen_Steuerung_01 keine Kommunikation">0xE00033</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="LDW_02 keine Kommunikation">0xE00037</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="LH_EPS_01 keine Kommunikation">0xE00038</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Motor_14 keine Kommunikation">0xE00048</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Motor_Code_01 keine Kommunikation">0xE00052</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Parkhilfe2_01 keine Kommunikation">0xE00060</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="0182" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="STS_01 keine Kommunikation">0xE0007A</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="VZE_01 keine Kommunikation">0xE00088</fehler>
+          <fehler status_v="1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="VZE_02 keine Kommunikation">0xE00089</fehler>
+          <fehler status_v="1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Motor_Hybrid_12 keine Kommunikation">0xE00096</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Dimmung_01 DI_KL_58xd unplausibles Signal">0xE10016</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Dimmung_01 DI_KL_58xs unplausibles Signal">0xE10017</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Dimmung_01 DI_KL_58xt unplausibles Signal">0xE10018</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="HVK_01 HVK_Gesamtst_Spgfreiheit unplausibles Signal">0xE10023</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Motor_14 MO_Gangposition unplausibles Signal">0xE10075</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Klemmen_Status_01 MsgCounter">0xE2000B</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Telefon (0x28) - Funktionseinschränkung wegen Kommunikationfehler - BapErr_Timeout Heartbeat">0xE4100D</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Telefon2 (0x29) - Funktionseinschränkung wegen Kommunikationfehler - BapErr_Timeout Heartbeat">0xE4100E</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Audio (0x31) - Funktionseinschränkung wegen Kommunikationfehler - BapErr_Timeout Heartbeat">0xE4100F</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="MFL_Config  Funktionseinschränkung wegen Kommunikationsfehler  BapErr_Time…">0xE41013</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="OnlineFunctions-Funktionseinschränkung wegen Kommunikationsfehler  BapErr…">0xE41014</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Telefon (0x28)-Funktionseinschränkung wegen Kommunikationfehler-BapErr_R..">0xE4200D</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Telefon2 (0x29)-Funktionseinschränkung wegen Kommunikationfehler-BapErr_...">0xE4200E</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Audio (0x31)-Funktionseinschränkung wegen Kommunikationfehler-BapErr_Ret…">0xE4200F</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Navigation (0x32)-Funktionseinschränkung wegen Kommunikationfehler-BapEr…">0xE42010</fehler>
+          <fehler status_v="1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="MFL Config  Funktionseinschränkung wegen Kommunikationsfehler">0xE42013</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="OnlineFunctions Funktionseinschränkung wegen Kommunikationsfehler">0xE42014</fehler>
+          <fehler status_v="1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SOLA_key_invalid Aktiv">0xF03400</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_DriveMonitSyste2UDS" variante="EV_*">
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ECU unlocked">0x100007</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ECU unlocked Passiv">0x100007</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_DriveMotorContrModulUDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SFD Role active Aktiv">0x00AC15</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="InvalidDataReceivedfromBrakeSystemControlModuleA(SIGERRESP_ESP_22_E...">0x00AC94</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="InvalidDataReceivedfromBrakeSystemControlModuleA(SIGERRESP_ESP_22_E...">0x00AC9A</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="InvalidDataReceivedfromBrakeSystemControlModuleA(SIGERRESP_ESP_22_E...">0x00AC9F</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="InvalidDataReceivedfromBrakeSystemControlModuleA(SIGERRESP_ESP_22_E...">0x00ACB2</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ECU Unlocked passiv">0x100007</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Activation active (SFD RoleActive)">0x984C00</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_EnginContrModul1UDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Databus error value received">0x004304</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Invalid Data Received From  Anti-Lock Brake System Control Module">0x005B72</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="8AP/ED9" fehlervorbedingung="" text="Information electronics control module 1 No Communication">0x005CD5</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Lost Communication With Power Steering Control Module">0x00601C</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Front sensor for drivers assistant systems  no communication">0x008249</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Invalid Data Received From Vehicle Dynamics Control Module">0x008591</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SECDIAG_ROLE_UNLOCKED">0x00AAF8</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Activation active">0x984C00</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Information Electronics Control Module 1 No communication">0xD05400</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_FrontSensoDriveAssisSysteUDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="reversibler_Fehler_im_ACC_System">0x00100B</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="irreversibler_Fehler_im_ACC_System">0x00100C</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="7X5/9X0" fehlervorbedingung="" text="Parkassistent_Abbruch">0x018025</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="0501/0510" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="EyeQ_no_reaction">0x036061</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="EyeQ_no_reaction">0x036061</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Video link to display unit - connection error">0x045020</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ESP_21_ESC_v_Signal_Qualifier_High_Low">0x2041B7</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="LRR1_SensorHeader_LRR1_Fehler">0x20444D</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="RLS_01_LS_Helligkeit_IR">0x204524</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SC_QBit_FASIS_SyncCounter">0x204524</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Internal WDG supervision">0x205019</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="4K4907117J/4K4907117K/4K4907117L/4K4907117M/4K4907117N/4K4907117O/4K4907117P/4K4907117Q/4K4907107J/4K4907107K/4K4907107L/4K4907107M/4K4907107N/4K4907107O/4K4907107P/4K4907107Q/4K4907108J/4K4907108K/4K4907108L/4K4907108M/4K4907108N/4K4907108O/4K4907108P/4K4907108Q" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Data_Set_Comparison_failed">0x205056</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="4K4907117*" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Data_Set_Comparison_failed">0x205056</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="4K4907107*" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Data_Set_Comparison_failed">0x205056</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="4K4907108*" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Data_Set_Comparison_failed">0x205056</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="0394/0395/0501" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ServiceInitialConnectionFail_zDML">0x205069</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="0512" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ServiceInitialConnectionFail_ETH_Update_EDR">0x20506C</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ServiceConnectTimeout_ETH_Update">0x20506D</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="0512" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ServiceConnectTimeout_ETH_Update">0x20506D</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_GatewUDS" variante="EV_Gatew31xUNECE_*">
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Development_Mode_Active_SFD">0x00059A</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ECU unlocked">0x001210</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="communication_overload_detected">0x001211</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="communication_overload_detected_ethernet">0x001212</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Produktion_Mode_Active">0x003160</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Timeout_Node_0x04_DiagAdress_A5_ZFAS">0x020204</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Timeout_Node_0x0F_DiagAdress_22_Allrad_HangOn">0x02020F</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="0025" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Timeout_Node_0x24_DiagAdress_6B_SpoilerSG">0x020224</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Timeout_Node_0x4F_DiagAdress_A5_ZFAS">0x02024F</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Timeout_Node_0x67_DiagAdress_0075_ConBox">0x020267</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Timeout_Node_0x73_DiagAdress_5F_ZR_High">0x020273</fehler>
+          <fehler status_v="0" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="8AL" fehlervorbedingung="" text="Timeout_Node_0xF2_zr2_DiagAdress_005F_ZR_High">0x0202F2</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="0025" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Ethernet Steuergerät für zentrales digitales Matrix Licht keine Kommunikation">0x0202F3</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Timeout_Node_0xF5_zr_DiagAdress_005F_ZR_MIB_TOP_ab_Gen3">0x0202F5</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Timeout_Node_0xF6_conBox_DiagAdress_0075">0x0202F6</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="0025" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="BAP_Timeout_ParkHeater">0x040203</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="0025" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="BAP_Timeout_BatteryControl">0x040225</fehler>
+          <fehler status_v="0" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="BAP_Timeout_ConnectionManager">0x040247</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="transport_mode_aktive">0x080E00</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="BDM_Component_Error">0x080F12</fehler>
+          <fehler status_v="1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="IDS_Some_IP_Interface_unavailable">0x600503</fehler>
+          <fehler status_v="1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Limp_home_mode_ids">0x600509</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Power_circuit_identification_not_plausible">0x82000B</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Electric_current_Upper_Limit_Value_Exceeded">0x823002</fehler>
+          <fehler status_v="1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Fs_id_configuration_error">0x890104</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="HVK_No_Component_Function_BMS">0xFF0008</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="HVK_Total_Free_Voltage">0xFF003C</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="HVK_Failure_Wire_2">0xFF0060</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="HVK_NO_Voltage_HV_TME_EKK">0xFF0062</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="HVK_Timeout_Error_EM1_HYB11">0xFF0067</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="BMS_Spannung_Zwkr_ Failure">0xFF006F</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="HVK_Voltage_Off_failure_BMS">0xFF0074</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="lp_lpv6_adress_conflict">0xFF0110</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Ip_Ipv6_address_conflict">0xFF0110</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Ethernet_databus_no_communication_port_2">0xFF0137</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="HVK_Timeout_Error_EM1_HYB14">0xFF0163</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Invalid Data Received From Driver monitoring camera">0xFF0230</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="short_term_distraction_detection_function_error">0xFF0234</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ADR_Timeout_Failure">0xFF0268</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="0023" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ADR_OPM_Failure">0xFF0269</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ADR_Detection_Open_HV_Circuit_Rear">0xFF026A</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ADR_Detection_Open_HV_Circuit_Front">0xFF026B</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Invalid Data Received From Cruise Control Front Distance Range Sensor">0xFF027B</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Databus_missing_message">0xFF0290</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Filter is not active">0xFF02B6</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Development_Mode_Active_SFD">0xFF059A</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_GearShiftContrModulUDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Databus error value received">0x006077</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_HeadUpDisplUDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="TEL_0x28 communication error bap_error_timeout heartbeat">0xFFFF3C</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="NAV_0x32 communication error bap_error_timeout heartbeat">0xFFFF50</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Audio_0x31 communication error bap_error_timeout heartbeat">0xFFFF54</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="TEL2_0x29 communication error bap_error_timeout heartbeat">0xFFFF5C</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_ImageProceElectUDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ECU unlocked Passiv">0x700500</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_ImageProceElectUDS" variante="EV_BVSGSR2_*">
+          <fehler status_v="0" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Frontsensorik für Fahrerassistenzsysteme empfangener Fehlerwert/sporadisch">0x701015</fehler>
+          <fehler status_v="0" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Frontsensorik für Fahrerassistenzsysteme empfangener Fehlerwert/sporadisch">0x701017</fehler>
+          <fehler status_v="0" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Frontsensorik für Fahrerassistenzsysteme empfangener Fehlerwert/sporadisch">0x701018</fehler>
+          <fehler status_v="0" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Frontsensorik für Fahrerassistenzsysteme empfangener Fehlerwert/sporadisch">0x701019</fehler>
+          <fehler status_v="0" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Frontsensorik für Fahrerassistenzsysteme empfangener Fehlerwert/sporadisch">0x70101B</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_InforContrUnit1UDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Aerial for satellite tuner - open circuit Passiv">0x000009</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SDARS tuner not enabled/activated">0x000014</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="5058" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Control module, software incompatible">0x000614</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="USB - communication error">0x000665</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Ethernet_databus_gateway_timeout">0x00073A</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Ethernet_databus_OCU_timeout">0x00073B</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="B27/B29/B36" fehlervorbedingung="" text="Navigation database not available ">0x000A03</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="40*/X0*/Y0*/Z0*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Unlock_protection_of_vehicle_diagnosis_active">0x001010</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Unlock_protection_of_vehicle_diagnosis_active">0x001010</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="U111000-Air suspension (0x06) - function restriction due to communication error - BapE...">0x001B06</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Park assist OPS (0x0A)-function restriction due to communication error-Bap…">0x001B0A</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="U111000-Rear-view camera (0x0B) - function restriction due to communication error - Ba...">0x001B0B</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Mirror (0x0E) - function restriction due to communication error - BapE...">0x001B0E</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="function restriction due to c...">0x001B19</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Seat adjustment/seat memory 2 (0x20) - function restriction due to communicati...">0x001B20</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="U111000-Road sign display (0x21) - function restriction due to communication error - B...">0x001B21</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="U111000-Battery management (0x25) - function restriction due to communication error - ...">0x001B25</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Emergency call module (0x33) - function restriction due to communication error - BapErr_timeout, heartbeat">0x001B33</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Efficiency assist (0x3C) - function restriction due to communication error - B…">0x001B3C</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="U111000-Front traffic assist (0x41) - function restriction due to communication error ...">0x001B41</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="U111000-Connection manager (0x47) - function restriction due to communication error - ...">0x001B47</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="U111000-DAF (0x51) - function restriction due to communication error - BapErr_timeout,...">0x001B51</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="EngineFunctions (0x5D) - function restriction due to communication error - BapE..">0x001B5D</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="A/C system (0x01) - function restriction due to communication error - BapErr_r...">0x001C01</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="function restriction due to communication error">0x001C02</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="unction restriction due to communication error - Ba...">0x001C03</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="function restriction due to communica...">0x001C04</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ACC (0x05) - function restriction due to communication error - BapErr_retry no..">0x001C05</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="U111000-Air suspension (0x06) - function restriction due to communication error - BapE...">0x001C06</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="function restriction due to communication err...">0x001C07</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="function restriction due to communication error - BapEr...">0x001C08</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="U111000-Exterior light (0x09) - function restriction due to communication error - BapE...">0x001C09</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Park assist OPS (0x0A) - function restriction due to communication error">0x001C0A</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="function restriction due to communication error - Bap...">0x001C0A</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="function restriction due to communication error - Bap...">0x001C0B</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="U111000-Front/rear windshield wiper (0x0C) - function restriction due to communication...">0x001C0C</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="function restriction due to communication erro...">0x001C0D</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="U111000-Mirror (0x0E) function restriction due to communication error - Ba...">0x001C0E</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Trip computer setup (0x0F) - function restriction due to communication error - BapErr_retry not successful">0x001C0F</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="function restriction due to communication error -...">0x001C0F</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="U111000-Seat adjustment/seat memory (0x10) - function restriction due to communication...">0x001C10</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="U111000-Time/date (0x11) - function restriction due to communication error - BapErr_re...">0x001C11</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="function restriction due ...">0x001C12</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="function restriction due to communication erro...">0x001C13</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="unction restriction due to communication error - Ba...">0x001C17</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="function restriction due to co...">0x001C19</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Side assist (0x1A) - function restriction due to communication error - BapErr_...">0x001C1A</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="U111000-Reversible belt tensioner (0x1F) - function restriction due to communication e...">0x001C1F</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Seat adjustment/seat memory 2 - function restriction due to communicati...">0x001C20</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="function restriction due to communication error - Ba...">0x001C21</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Driver alert system (0x22) - function restriction due to communication error -...">0x001C22</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Brake (0x26) - function restriction due to communication error - BapErr_retry">0x001C26</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Emergency call module (0x33) – function restriction due to communication error – BapErr_retry not successful">0x001C33</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="U111000-ENI (0x37) - function restriction due to communication error - BapErr_retry no...">0x001C37</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Function restriction due to communication error - BapErr_r">0x001C39</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="U111000-Efficiency assist (0x3C) - function restriction due to communication error - B...">0x001C3C</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="U111000-Seat memory driver rear (0x3E) - function restriction due to communication err...">0x001C3E</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Spoiler (0x40) - function restriction due to communication error - BapErr_retr...">0x001C40</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="function restriction due to communication error -...">0x001C41</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="function restriction due to communication error - BapE...">0x001C42</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="function restriction due to communication error ...">0x001C45</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="function restriction due to communication error - B...">0x001C47</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="U111000-Sun roof_front (0x4B) - function restriction due to communication error - BapE...">0x001C4B</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="U111000-Sun roof_rear (0x4C) - function restriction due to communication error - BapEr...">0x001C4C</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="function restriction due to communication error - BapErr_retry not...">0x001C51</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="U111000-IAA_PSO (0x52) - function restriction due to communication error - BapErr_retr...">0x001C52</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="function restriction due to communication error - BapE...">0x001C5D</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="U111000-LLCC (0x78) - function restriction due to communication error - BapErr_retry n...">0x001C78</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="function restriction due to communication error - BapE...">0x001C79</fehler>
+          <fehler status_v="1" status_p="1" teilenummer="" softwareversion="50*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SOLA_key_invalid, SOK_signature_verification_failed">0x002011</fehler>
+          <fehler status_v="1" status_p="1" teilenummer="" softwareversion="50*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SOLA_key_invalid, SOK_signature_verification_failed">0x002014</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="a2b_bus_master_open_wire_or_wrong_port">0x10000C</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="a2b_bus_master_wrong_port_or_revers_wires">0x10000D</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="A2B Bus defekt - Master reverse wires or defective node">0x100018</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="B1D5AF0-SFD_development_mode_active">0x110009</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ConBox_Not_Connected">0x11000D</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_InfotInterUDS" variante="EV_FirewContrUnitAU571_002">
+          <fehler status_v="-1" status_p="0" teilenummer="4GD907338E" softwareversion="0042/0051" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Telematics control module for monitoring authenticity no communication">0x0202B4</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_LaneChangAssisUDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Timestamp_databus_message_missing_Airbag_05">0x121035</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="databuserrorvaluereceived-ESP_15_VZM_Status">0x123019</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="databuserrorvaluereceived-SARA_11_SARA_CF_Omega_Z_r">0x123031</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="databuserrorvaluereceived-TSG_FT_01-ASW_HMI_defekt">0x22300D</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_LockElectUDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SFD Role active Aktiv">0x184C00</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Motor_14 keine Kommunikation">0xE00003</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ESP_20 keine Kommunikation">0xE00008</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Motor_11 keine Kommunikation">0xE00009</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Motor_12 keine Kommunikation">0xE0000A</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Getriebe_12 keine Kommunikation">0xE00015</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Getriebe_13 keine Kommunikation">0xE00016</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Diagnose_01 keine Kommunikation">0xE0001A</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Systeminfo_01 keine Kommunikation">0xE0001C</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Kombi_02 keine Kommunikation">0xE0001E</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Allrad_05 ALR_Ist_Proz unplausibles Signal">0xE0005C</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Getriebe_12 GE_Uefkt_02 unplausibles Signal">0xE0006F</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Getriebe_13 GE_Verlustmoment unplausibles Signal">0xE00070</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="FDR_06 keine Kommunikation">0xE0007D</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_NightVisioUDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="PSD_04, no signal, no communication Passiv">0x002830</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_RearAxleSteerUDS" variante="EV_RearAxleSteerZFPO633_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="KFC_FLEXRAY_MOTOR_CODE_01_TIMEOUT">0x000087</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="KFC_FLEXRAY_ESP_23_TIMEOUT">0x0000F8</fehler>
+          <fehler status_v="0" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="KFC_AUTOSAR_DET_ERROR">0x000174</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="KFC_SFD_ROLE_ACTIVE">0x000179</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_RollContrSyste1UDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SFD Role active Aktiv">0x000080</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="0716" produktschluessel="F7*" ausstattung="1P8" fehlervorbedingung="" text="Active Discharge Fehler">0x000704</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_RollContrSyste2UDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SFD Role active Aktiv">0x000080</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="0716" produktschluessel="F7*" ausstattung="1P8" fehlervorbedingung="" text="Active Discharge Fehler">0x000704</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_SteerAssisUDS" variante="EV_EPSFSBASMMBw_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="DTC_UNLOCK_PROTECTION_OF_VEHICLE_DIAGNOSIS_ACTIVE">0x000807</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="DTC_HCA_01_TIMEOUT">0x003019</fehler>
+          <fehler status_v="0" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="DTC_PLA2_01_TIMEOUT">0x003052</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="DTC_ESP_22_FEHLER">0x003209</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="DTC_FDR_03_Init">0x003214</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="DTC_FDR_03_Fehler">0x003215</fehler>
+          <fehler status_v="1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="DTC_MOTOR_47_TIMEOUT">0x003242</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="0169" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="DTC_COMMUNICATION_ERROR">0x004564</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="DTC_SFD_ROLE_ACTIVE">0x005000</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_SteerColumLockiUDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ECU unlocked Passiv">0x100204</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="TimeoutMessageTSG_FT_01">0xC14000</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="TimeoutMessageZV_02">0xC14101</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="TimeoutMessageMotor_14">0xC14601</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="TimeoutMessageESP_10">0xC14602</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="TimeoutMessageKlemmen_Steuerung_01">0xC1460A</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="TimeoutMessageESP_21">0xC1460B</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="TimeoutMessageDiagnose_01">0xC1460C</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="TimeoutMessageMotor_12">0xC1460E</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="TimeoutMessageKessy_12">0xC14611</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="TimeoutMessageWFS_01">0xC14613</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemCommuUnitUDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="EPS_Timeout">0x030210</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemCommuUnitUDS" variante="EV_ConBoxChinaAU58X_*">
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="X45*/045*/X46*/046*/X47*/047*/X48*/048*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Development_Mode_Active">0x060001</fehler>
+          <fehler status_v="1" status_p="1" teilenummer="" softwareversion="X45*/045*/X46*/046*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SOK_signature_verification_failed">0x066931</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemCommuUnitUDS" variante="EV_ConBoxChinaAU58X_002">
+          <fehler status_v="1" status_p="1" teilenummer="" softwareversion="X45*/045*/X46*/046*/X47*/047*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SOK_signature_verification_failed">0x066931</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemCommuUnitUDS" variante="EV_ConBoxChinaAU58X_*">
+          <fehler status_v="1" status_p="1" teilenummer="" softwareversion="X45*/045*/X46*/046*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SOK_key_invalid">0x066932</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemCommuUnitUDS" variante="EV_ConBoxChinaAU58X_002">
+          <fehler status_v="1" status_p="1" teilenummer="" softwareversion="X45*/045*/X46*/046*/X47*/047*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SOK_key_invalid">0x066932</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemCommuUnitUDS" variante="EV_ConBoxChinaAU58X_*">
+          <fehler status_v="1" status_p="1" teilenummer="" softwareversion="X45*/045*/X46*/046*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SOK_signature_creation_failed">0x066933</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemCommuUnitUDS" variante="EV_ConBoxChinaAU58X_002">
+          <fehler status_v="1" status_p="1" teilenummer="" softwareversion="X45*/045*/X46*/046*/X47*/047*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SOK_signature_creation_failed">0x066933</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemCommuUnitUDS" variante="EV_ConBoxHighAU49X_*">
+          <fehler status_v="-1" status_p="1" teilenummer="80D035286A" softwareversion="X127/N127/0134" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Data_Set_Invalid">0x080001</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemCommuUnitUDS" variante="EV_*">
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="eCall_activation_service_mode">0x112101</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemCommuUnitUDS" variante="EV_ConBoxChinaAU58X_*">
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="X46*/046*/X47*/047*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="U179F00-eCall_not_active">0x120009</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemCommuUnitUDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ECU unlocked">0x151500</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemCommuUnitUDS" variante="EV_ConBoxChinaAU58X_*">
+          <fehler status_v="1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="intrusion_detection_system_function_restriction">0x160001</fehler>
+          <fehler status_v="1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Intrusion_detection_system_communication_implausible">0x160002</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemDiagnContrUnitUDS" variante="EV_CustoConneDevicPO426_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Unlock_protection_of_vehicle_diagnosis_active">0x060920</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemDiagnContrUnitUDS" variante="EV_TelemDiagnUnitAU513_*">
+          <fehler status_v="-1" status_p="1" teilenummer="4KD035285*" softwareversion="*" produktschluessel="F7*" ausstattung="7I4" fehlervorbedingung="" text="Unlock_protection_of_vehicle_diagnosis_active">0x060920</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemDiagnContrUnitUDS" variante="EV_TelemDiagnUnitAU651_*">
+          <fehler status_v="-1" status_p="0" teilenummer="4KD035284D" softwareversion="*" produktschluessel="F7*" ausstattung="7I4" fehlervorbedingung="" text="Productionmode_P-Mode_active">0x080001</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemDiagnContrUnitUDS" variante="EV_TelemDiagnUnitAU513_*">
+          <fehler status_v="-1" status_p="1" teilenummer="4KD035285*" softwareversion="*" produktschluessel="F7*" ausstattung="7I4" fehlervorbedingung="" text="RTM GB/T 32960 local cache overloaded">0x0A0003</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemDiagnContrUnitUDS" variante="EV_TelemDiagnUnitAU651_*">
+          <fehler status_v="-1" status_p="1" teilenummer="4KD035284D" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="RTM GB/T 32960 local cache overloaded">0x0A0003</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemDiagnContrUnitUDS" variante="EV_CustoConneDevicPO426_*">
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="9IM" fehlervorbedingung="" text="Mobile_network_registration_not_possible">0x0C0001</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemDiagnContrUnitUDS" variante="EV_TelemDiagnUnitAU513_*">
+          <fehler status_v="-1" status_p="1" teilenummer="4KD035285*" softwareversion="*" produktschluessel="F7*" ausstattung="7I4" fehlervorbedingung="" text="Mobile network registration not possible">0x0C0001</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemDiagnContrUnitUDS" variante="EV_TelemDiagnUnitAU651_*">
+          <fehler status_v="-1" status_p="1" teilenummer="4KD035284D" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Mobile network registration not possible">0x0C0001</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemDiagnContrUnitUDS" variante="EV_TelemDiagnUnitAU513_*">
+          <fehler status_v="-1" status_p="1" teilenummer="4KD035285*" softwareversion="*" produktschluessel="F7*" ausstattung="7I4" fehlervorbedingung="" text="Mobile network registration is rejected">0x0C0002</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemDiagnContrUnitUDS" variante="EV_TelemDiagnUnitAU651_*">
+          <fehler status_v="-1" status_p="1" teilenummer="4KD035284D" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Mobile network registration is rejected">0x0C0002</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemDiagnContrUnitUDS" variante="EV_TelemDiagnUnitAU513_*">
+          <fehler status_v="-1" status_p="1" teilenummer="4KD035285*" softwareversion="*" produktschluessel="F7*" ausstattung="7I4" fehlervorbedingung="" text="RTM Backend APN registration failed">0x0C0003</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemDiagnContrUnitUDS" variante="EV_TelemDiagnUnitAU651_*">
+          <fehler status_v="-1" status_p="1" teilenummer="4KD035284D" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="RTM Backend APN registration failed">0x0C0003</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemDiagnContrUnitUDS" variante="EV_TelemDiagnUnitAU513_*">
+          <fehler status_v="-1" status_p="1" teilenummer="4KD035285*" softwareversion="*" produktschluessel="F7*" ausstattung="7I4" fehlervorbedingung="" text="RTM Backend DNS lookup failed">0x0C0004</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemDiagnContrUnitUDS" variante="EV_TelemDiagnUnitAU651_*">
+          <fehler status_v="-1" status_p="1" teilenummer="4KD035284D" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="RTM Backend DNS lookup failed">0x0C0004</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemDiagnContrUnitUDS" variante="EV_TelemDiagnUnitAU513_*">
+          <fehler status_v="-1" status_p="1" teilenummer="4KD035285*" softwareversion="*" produktschluessel="F7*" ausstattung="7I4" fehlervorbedingung="" text="RTM Backend TCP connection failed">0x0C0005</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemDiagnContrUnitUDS" variante="EV_TelemDiagnUnitAU651_*">
+          <fehler status_v="-1" status_p="1" teilenummer="4KD035284D" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="RTM Backend TCP connection failed">0x0C0005</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemDiagnContrUnitUDS" variante="EV_TelemDiagnUnitAU513_*">
+          <fehler status_v="-1" status_p="1" teilenummer="4KD035285*" softwareversion="*" produktschluessel="F7*" ausstattung="7I4" fehlervorbedingung="" text="RTM Backend TLS handshake failed">0x0C0006</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemDiagnContrUnitUDS" variante="EV_TelemDiagnUnitAU651_*">
+          <fehler status_v="-1" status_p="1" teilenummer="4KD035284D" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="RTM Backend TLS handshake failed">0x0C0006</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemDiagnContrUnitUDS" variante="EV_TelemDiagnUnitAU513_*">
+          <fehler status_v="-1" status_p="1" teilenummer="4KD035285*" softwareversion="*" produktschluessel="F7*" ausstattung="7I4" fehlervorbedingung="" text="RTM Backend Login failed">0x0C0007</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemDiagnContrUnitUDS" variante="EV_TelemDiagnUnitAU651_*">
+          <fehler status_v="-1" status_p="1" teilenummer="4KD035284D" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="RTM Backend Login failed">0x0C0007</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemDiagnContrUnitUDS" variante="EV_TelemDiagnUnitAU513_*">
+          <fehler status_v="-1" status_p="1" teilenummer="4KD035285*" softwareversion="*" produktschluessel="F7*" ausstattung="7I4" fehlervorbedingung="" text="RTM Backend Root CA expired">0x0C0008</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemDiagnContrUnitUDS" variante="EV_TelemDiagnUnitAU651_*">
+          <fehler status_v="-1" status_p="1" teilenummer="4KD035284D" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="RTM Backend Root CA expired">0x0C0008</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemDiagnContrUnitUDS" variante="EV_TelemDiagnUnitAU513_*">
+          <fehler status_v="-1" status_p="1" teilenummer="4KD035285*" softwareversion="*" produktschluessel="F7*" ausstattung="7I4" fehlervorbedingung="" text="RTM Backend Registration failed">0x0C0009</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemDiagnContrUnitUDS" variante="EV_TelemDiagnUnitAU651_*">
+          <fehler status_v="-1" status_p="1" teilenummer="4KD035284D" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="RTM Backend Registration failed">0x0C0009</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TelemDiagnContrUnitUDS" variante="EV_CustoConneDevicPO426_*">
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Mobile_network_dialing_failure (U19A500)">0xA00000</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Internal_Wi-Fi_connection_fault">0xA00003</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="eSIM_Hotspot_Wi-Fi_fault">0xA00008</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_ThermManagUDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="ECU unlocked">0x008010</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TirePressMonit1UDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="SFD Role active Aktiv">0x000080</fehler>
+          <fehler status_v="0" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="C105400-Tire_pressure_warning_FL-weakWarning (ehemals minor)">0x803003</fehler>
+          <fehler status_v="0" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="C105600-Tire_pressure_warning_FR-weakWarning (ehemals minor)">0x803006</fehler>
+          <fehler status_v="0" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="C105800-Tire_pressure_warning_RL-weakWarning">0x803009</fehler>
+          <fehler status_v="0" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="C105A00-Tire_pressure_warning_RR-weakWarning">0x80300C</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TrailFunctUDS" variante="EV_TrailFunctG3MPFMHella_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="1D3" fehlervorbedingung="" text="ECU unlocked">0x0C6711</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TransContrModulUDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="InterventionLV2inLV1">0x00C42F</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="9X0" fehlervorbedingung="" text="Timeout PDU IPA">0x00C455</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Signal Error ESP">0x00C46C</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TransContrModulUDS" variante="EV_PDK2EVOZFPO633_*">
+          <fehler status_v="-1" status_p="0" teilenummer="0DS909100E/0DS909100F" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Signal Error Kombi">0x00C46D</fehler>
+     </steuergeraet>
+     <steuergeraet shortname="LL_TransContrModulUDS" variante="EV_*">
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Transportmode activated">0x00C4D5</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Documentation for SFD role activation Aktiv">0x00C53D</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Documentation for SFD role activation Passiv">0x984C00</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Signal Error Kombi">0xC42386</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Signal Error ESP">0xC82229</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Signal Error ESP (U082229)">0xC82229</fehler>
+          <fehler status_v="-1" status_p="1" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="9X0" fehlervorbedingung="" text="Timeout PDU IPA">0xC8598C</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Timeout PDU IPA (U08598C)">0xC8598C</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Timeout PDU PSD (U08638C)">0xC8638C</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="Transportmode activated">0xD10500</fehler>
+          <fehler status_v="-1" status_p="0" teilenummer="" softwareversion="*" produktschluessel="F7*" ausstattung="" fehlervorbedingung="" text="InterventionLV2inLV1">0xD5C900</fehler>
+     </steuergeraet>
+</steuergeraete>

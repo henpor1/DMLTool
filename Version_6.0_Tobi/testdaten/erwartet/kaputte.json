@@ -1,0 +1,294 @@
+{
+  "anzahl_eintraege": 493,
+  "hinweise": [],
+  "befunde": [
+    {
+      "pruefung": "Duplikate",
+      "zeile": 8,
+      "fsp": [
+        "LL_ActuaForExterNoiseUDS",
+        "EV_*",
+        "-1",
+        "0",
+        "",
+        "*",
+        "F7*",
+        "",
+        "",
+        "SFD Role active Aktiv",
+        "0x000080"
+      ],
+      "befund": "2x identisch in der DML enthalten (Zeilen 8, 9)"
+    },
+    {
+      "pruefung": "Duplikate",
+      "zeile": 175,
+      "fsp": [
+        "LL_Charg1MobilDevicUDS",
+        "EV_*",
+        "-1",
+        "0",
+        "",
+        "*",
+        "F7*",
+        "",
+        "",
+        "ECU unlocked",
+        "0x000206"
+      ],
+      "befund": "3x identisch in der DML enthalten (Zeilen 175, 176, 177)"
+    },
+    {
+      "pruefung": "Duplikate",
+      "zeile": 179,
+      "fsp": [
+        "LL_Charg1MobilDevicUDS",
+        "EV_*",
+        "-1",
+        "0",
+        "",
+        "*",
+        "F7*",
+        "",
+        "",
+        "BEM_02_timeout",
+        "0xE00001"
+      ],
+      "befund": "2x identisch in der DML enthalten (Zeilen 179, 180)"
+    },
+    {
+      "pruefung": "Duplikate",
+      "zeile": 199,
+      "fsp": [
+        "LL_ChassContrUDS",
+        "EV_*",
+        "-1",
+        "0",
+        "",
+        "*",
+        "F7*",
+        "",
+        "",
+        "SFD Role active",
+        "0x000080"
+      ],
+      "befund": "2x identisch in der DML enthalten (Zeilen 199, 200)"
+    },
+    {
+      "pruefung": "Hex-Format",
+      "zeile": 51,
+      "fsp": [
+        "LL_AirCondiUDS",
+        "EV_ACClimaBHTCPO623_*",
+        "-1",
+        "0",
+        "",
+        "*",
+        "F7*",
+        "",
+        "",
+        "Motor_14 MO_Gangposition unplausibles Signal",
+        "0xE0005"
+      ],
+      "befund": "Hexwert entspricht nicht 0xHHHHHH -> '0xE0005'"
+    },
+    {
+      "pruefung": "Umbruch / Leerzeichen",
+      "zeile": 4,
+      "fsp": [
+        "LL_ActuaForExterNoiseUDS",
+        "EV*",
+        "-1",
+        "0",
+        "",
+        "*",
+        "F7*",
+        "",
+        "",
+        "SFD Role act ive    ",
+        "0x000080"
+      ],
+      "befund": "Leerzeichen am Ende von 'text'; echter Zeilenumbruch im Quelltext des <fehler>-Elements"
+    },
+    {
+      "pruefung": "Umbruch / Leerzeichen",
+      "zeile": 149,
+      "fsp": [
+        "LL_CentrElectUDS",
+        "EV_BCM1BOSCHAU651_*",
+        "-1",
+        "0",
+        "",
+        "*",
+        "F7*",
+        "",
+        "",
+        "Transmissioncontrolmodule,faultydrivepositioninformationfromautomatic\u0085",
+        "0x010146"
+      ],
+      "befund": "U+0085 (NEL / falsch kodiertes Sonderzeichen) in 'text'"
+    },
+    {
+      "pruefung": "Umbruch / Leerzeichen",
+      "zeile": 249,
+      "fsp": [
+        "LL_DashBoardUDS",
+        "EV_DashBoardLGEPO536_*",
+        "-1",
+        "0",
+        "",
+        "*",
+        "F7*",
+        "",
+        "",
+        "Fahrwerksystem nicht funktionsbereit Fahrzeug verkehrssicher abstellen WarnI\u0085",
+        "0xA00196"
+      ],
+      "befund": "U+0085 (NEL / falsch kodiertes Sonderzeichen) in 'text'"
+    },
+    {
+      "pruefung": "Umbruch / Leerzeichen",
+      "zeile": 280,
+      "fsp": [
+        "LL_DashBoardUDS",
+        "EV_DashBoardLGEPO536_*",
+        "-1",
+        "0",
+        "",
+        "*",
+        "F7*",
+        "",
+        "",
+        "MFL_Config  Funktionseinschr\u00e4nkung wegen Kommunikationsfehler  BapErr_Time\u0085",
+        "0xE41013"
+      ],
+      "befund": "U+0085 (NEL / falsch kodiertes Sonderzeichen) in 'text'"
+    },
+    {
+      "pruefung": "Umbruch / Leerzeichen",
+      "zeile": 281,
+      "fsp": [
+        "LL_DashBoardUDS",
+        "EV_DashBoardLGEPO536_*",
+        "-1",
+        "0",
+        "",
+        "*",
+        "F7*",
+        "",
+        "",
+        "OnlineFunctions-Funktionseinschr\u00e4nkung wegen Kommunikationsfehler  BapErr\u0085",
+        "0xE41014"
+      ],
+      "befund": "U+0085 (NEL / falsch kodiertes Sonderzeichen) in 'text'"
+    },
+    {
+      "pruefung": "Umbruch / Leerzeichen",
+      "zeile": 284,
+      "fsp": [
+        "LL_DashBoardUDS",
+        "EV_DashBoardLGEPO536_*",
+        "-1",
+        "0",
+        "",
+        "*",
+        "F7*",
+        "",
+        "",
+        "Audio (0x31)-Funktionseinschr\u00e4nkung wegen Kommunikationfehler-BapErr_Ret\u0085",
+        "0xE4200F"
+      ],
+      "befund": "U+0085 (NEL / falsch kodiertes Sonderzeichen) in 'text'"
+    },
+    {
+      "pruefung": "Umbruch / Leerzeichen",
+      "zeile": 285,
+      "fsp": [
+        "LL_DashBoardUDS",
+        "EV_DashBoardLGEPO536_*",
+        "-1",
+        "0",
+        "",
+        "*",
+        "F7*",
+        "",
+        "",
+        "Navigation (0x32)-Funktionseinschr\u00e4nkung wegen Kommunikationfehler-BapEr\u0085",
+        "0xE42010"
+      ],
+      "befund": "U+0085 (NEL / falsch kodiertes Sonderzeichen) in 'text'"
+    },
+    {
+      "pruefung": "Umbruch / Leerzeichen",
+      "zeile": 409,
+      "fsp": [
+        "LL_InforContrUnit1UDS",
+        "EV_*",
+        "-1",
+        "1",
+        "",
+        "*",
+        "F7*",
+        "B27/B29/B36",
+        "",
+        "Navigation database not available ",
+        "0x000A03"
+      ],
+      "befund": "Leerzeichen am Ende von 'text'"
+    },
+    {
+      "pruefung": "Umbruch / Leerzeichen",
+      "zeile": 413,
+      "fsp": [
+        "LL_InforContrUnit1UDS",
+        "EV_*",
+        "-1",
+        "0",
+        "",
+        "*",
+        "F7*",
+        "",
+        "",
+        "Park assist OPS (0x0A)-function restriction due to communication error-Bap\u0085",
+        "0x001B0A"
+      ],
+      "befund": "U+0085 (NEL / falsch kodiertes Sonderzeichen) in 'text'"
+    },
+    {
+      "pruefung": "Umbruch / Leerzeichen",
+      "zeile": 421,
+      "fsp": [
+        "LL_InforContrUnit1UDS",
+        "EV_*",
+        "-1",
+        "0",
+        "",
+        "*",
+        "F7*",
+        "",
+        "",
+        "Efficiency assist (0x3C) - function restriction due to communication error - B\u0085",
+        "0x001B3C"
+      ],
+      "befund": "U+0085 (NEL / falsch kodiertes Sonderzeichen) in 'text'"
+    },
+    {
+      "pruefung": "Umbruch / Leerzeichen",
+      "zeile": 455,
+      "fsp": [
+        "LL_InforContrUnit1UDS",
+        "EV_*",
+        "-1",
+        "0",
+        "",
+        "*",
+        "F7*",
+        "",
+        "",
+        "Emergency call module (0x33) \u0096 function restriction due to communication error \u0096 BapErr_retry not successful",
+        "0x001C33"
+      ],
+      "befund": "U+0096 (C1-Steuerzeichen / falsch kodiertes Sonderzeichen) in 'text'"
+    }
+  ]
+}
