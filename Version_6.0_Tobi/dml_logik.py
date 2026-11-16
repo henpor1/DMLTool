@@ -40,6 +40,12 @@ STEUERZEICHEN = {"\n": "LF (Zeilenumbruch)",
                  LS: "U+2028 (Line Separator)",
                  PS: "U+2029 (Paragraph Separator)"}
 
+
+# V6.1 Alle C1-Steuerzeichen außer NEL (NEL steht schon in STEUERZEICHEN).
+# V6.1 Entstehen meist, wenn Windows-1252-Text (z. B. Gedankenstrich 0x96)
+# V6.1 als ISO-8859-1 gespeichert wird.
+C1_MUSTER = re.compile(r"[\x80-\x84\x86-\x9f]")
+
 # Erwartetes Format des Hexwerts, z.B. 0x000080
 HEX_MUSTER = re.compile(r"^0x[0-9A-Fa-f]{6}$")
 
@@ -310,6 +316,9 @@ def zeilenumbruch_pruef_logik(fehlerspeicher, rohelemente=None, zeilen=None):
             for zeichen, klar in STEUERZEICHEN.items():
                 if zeichen in e:
                     gruende.append(f"{klar} in '{feldname(j)}'")
+            for z in sorted(set(C1_MUSTER.findall(e))):     #v6.1
+                gruende.append(f"U+{ord(z):04X} (C1-Steuerzeichen / falsch "
+                               f"kodiertes Sonderzeichen) in '{feldname(j)}'")
 
         if passend and ("\n" in rohelemente[i] or "\r" in rohelemente[i]):
             gruende.append("echter Zeilenumbruch im Quelltext des <fehler>-Elements")

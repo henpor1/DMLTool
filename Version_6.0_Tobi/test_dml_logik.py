@@ -196,7 +196,18 @@ def test_umbruchpruefung_findet_steuerzeichen(tmp_path):
 
     assert len(treffer) == 1
     assert "U+0085" in gruende(treffer)[0]
+    
+@pytest.mark.parametrize("zeichen", ["\x96", "\x80", "\x9f"])
+def test_umbruchpruefung_findet_alle_c1_steuerzeichen(tmp_path, zeichen):
+    """0x80-0x9F sind in ISO-8859-1 Steuerzeichen (z. B. 0x96 aus Windows-1252)."""
+    pfad = schreibe_dml(tmp_path,
+                        fehlerzeile(text=f"Emergency call {zeichen} function"),
+                        fehlerzeile(text="sauber"))
+    fehlerspeicher, zeilen, roh = lade(pfad)
 
+    treffer = logik.zeilenumbruch_pruef_logik(fehlerspeicher, roh, zeilen)
+
+    assert zeilen_von(treffer) == [4]
 
 @pytest.mark.parametrize("hexwert, erwartet_treffer", [
     ("0x000080", False),   # korrekt
