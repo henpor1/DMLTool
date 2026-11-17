@@ -491,10 +491,17 @@ def kopiere_auswahl(_event=None):
     root.clipboard_append("\n".join(zeilen))
     set_status(f"{len(auswahl)} Zeile(n) kopiert")
 
+def markiere_alle(_event=None):
+    """Markiert alle Zeilen der Ergebnistabelle."""
+    eintraege = tabelle.get_children()
+    if eintraege:
+        tabelle.selection_set(*eintraege)
+    return "break"
 
 def leere_ergebnis():
     """Setzt Tabelle, Übersicht und Filter zurück."""
     state.befunde, state.syntaxhinweise = [], {}
+    state.gelaufen = []
     filter_var.set("")
     zeige_ergebnis()
     set_status("Bereit.")
@@ -850,8 +857,9 @@ root.bind("<F5>", lambda _e: starte_pruefung())
 root.bind("<F1>", zeige_hilfe)
 root.bind("<Control-o>", lambda _e: waehle_datei(pfad_var1))
 root.bind("<Control-s>", exportiere_csv)
-root.bind("<Control-c>", kopiere_auswahl)
-root.bind("<Delete>", lambda _e: leere_ergebnis())
+tabelle.bind("<Control-c>", kopiere_auswahl)
+tabelle.bind("<Control-a>", markiere_alle)
+tabelle.bind("<Delete>", lambda _e: leere_ergebnis())
 
 aktualisiere_spalten()
 zeige_ergebnis()
