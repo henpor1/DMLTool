@@ -112,14 +112,51 @@ state = DmlState()
 logger = logging.getLogger('Log')
 
 
-def log_start():
-    """Richtet die Logdatei mit begrenzter Größe ein."""
-    from logging.handlers import RotatingFileHandler
-    logger.setLevel(logging.DEBUG)
-    fh = RotatingFileHandler('debug.log', maxBytes=1_000_000, backupCount=2, encoding="utf-8")
-    fh.setFormatter(logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s'))
-    logger.addHandler(fh)
+LOG_PFAD = None      # Pfad der Logdatei, falls eingerichtet (C3)
+LOG_FEHLER = None    # Fehlermeldung, falls Logging nicht möglich war (C3)
 
+def beschreibe_logfehler(fehler):
+    """Übersetzt einen Fehler beim Anlegen der Logdatei in Ursache und Lösung (C3)."""
+    import errno
+    if isinstance(fehler, PermissionError):
+        ursache = ("Keine Schreibrechte im Benutzerordner oder die Logdatei ist gesperrt "
+                   "(z. B. weil das Tool bereits in einem zweiten Fenster läuft).")
+        loesung = ("Andere Fenster des Tools schließen und neu starten. Hilft das nicht, "
+                   "die IT nach Schreibrechten für den Benutzerordner fragen.")
+    elif isinstance(fehler, FileNotFoundError):
+        ursache = "Der Benutzerordner ist nicht erreichbar (z. B. Netzlaufwerk ohne Verbindung)."
+        loesung = "Netzwerk- bzw. VPN-Verbindung prüfen und das Tool neu starten."
+    elif getattr(fehler, "errno", None) == errno.ENOSPC:
+        ursache = "Auf dem Laufwerk ist kein Speicherplatz mehr frei."
+        loesung = "Speicherplatz freigeben und das Tool neu starten."
+    else:
+        ursache = "Unbekannte Ursache."
+        loesung = "Diese Meldung an den Betreuer des Tools weitergeben."
+    return f"{ursache}\n\nLösung: {loesung}\n\nTechnische Meldung: {fehler}"
+
+def log_start():
+    """Richtet die Logdatei im Benutzerverzeichnis ein."""
+    global LOG_PFAD, LOG_FEHLER
+    from logging.handlers import RotatingFileHandler
+    from pathlib import Path
+
+    logger.setLevel(logging.DEBUG)
+
+    try:
+        log_ordner = Path.home() / "DML_Tool" / "logs"
+        log_ordner.mkdir(parents=True, exist_ok=True)
+        log_datei = log_ordner / "debug.log"
+
+        fh = RotatingFileHandler(log_datei, maxBytes=1_000_000,
+                                 backupCount=2, encoding="utf-8")
+        fh.setFormatter(logging.Formatter(
+            '%(asctime)s - %(name)s - %(levelname)s - %(message)s'))
+        logger.addHandler(fh)
+        LOG_PFAD = log_datei
+
+    except OSError as fehler:
+        # Das Tool soll auch ohne Schreibrechte starten können.
+        LOG_FEHLER = beschreibe_logfehler(fehler)
 
 log_start()
 
@@ -186,8 +223,9 @@ def im_hintergrund(arbeit, danach, statustext):
             danach(wert)
         else:
             logger.warning("Fehler im Hintergrundlauf", exc_info=wert)
-            set_status("Fehler - siehe debug.log")
-            messagebox.showerror("Fehler", f"Die Prüfung ist fehlgeschlagen:\n\n{wert}")
+            hinweis = f"siehe {LOG_PFAD}" if LOG_PFAD else "keine Logdatei verfügbar"
+            set_status(f"Fehler - {hinweis}")
+            messagebox.showerror("Fehler", f"Die Prüfung ist fehlgeschlagen:\n\n{wert}\n\nDetails: {hinweis}")
 
     root.after(80, abfragen)
 
@@ -864,6 +902,14 @@ tabelle.bind("<Delete>", lambda _e: leere_ergebnis())
 aktualisiere_spalten()
 zeige_ergebnis()
 
+# C3: Hinweis, falls keine Logdatei angelegt werden konnte
+# C3: Hinweis, falls keine Logdatei angelegt werden konnte
+if LOG_FEHLER:
+    set_status("Hinweis: Logdatei konnte nicht angelegt werden")
+    root.after(500, lambda: messagebox.showwarning(
+        "Logdatei nicht verfügbar",
+        "Die Logdatei konnte nicht angelegt werden.\n\n" + LOG_FEHLER +
+        "\n\nDas Tool funktioniert trotzdem, Fehler werden aber nicht protokolliert."))
 try:
     root.mainloop()
 except KeyboardInterrupt:
