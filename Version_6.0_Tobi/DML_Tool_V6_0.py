@@ -104,6 +104,7 @@ class DmlState:
         self.dml = {}           # "1.XML"/"2.XML" -> (fehlerspeicher, zeilen, roh)
         self.befunde = []       # Liste von Dicts, siehe _mache_befund()
         self.syntaxhinweise = {}
+        self.gelaufen = []      # Kurznamen der Prüfungen, die im letzten Lauf wirklich liefen (C1)
         self.laeuft = False
 
 
@@ -273,6 +274,7 @@ def starte_pruefung():
     def danach(ergebnis):
         geladen, hinweise, befunde = ergebnis
         state.dml, state.syntaxhinweise, state.befunde = geladen, hinweise, befunde
+        state.gelaufen = [p.kurz for p in gewaehlt]
         zeige_ergebnis()
         anzahl = sum(len(f[0]) for f in geladen.values())
         set_status(f"{len(befunde)} Befunde in {anzahl} Fehlerspeicher-Einträgen")
@@ -313,6 +315,7 @@ def starte_suche(_event=None):
     def danach(ergebnis):
         geladen, hinweise, befunde = ergebnis
         state.dml, state.syntaxhinweise, state.befunde = geladen, hinweise, befunde
+        state.gelaufen = [] #C1
         zeige_ergebnis()
         set_status(f"{titel}: {len(befunde)} Treffer")
 
@@ -339,6 +342,7 @@ def starte_vergleich():
     def danach(ergebnis):
         geladen, hinweise, befunde = ergebnis
         state.dml, state.syntaxhinweise, state.befunde = geladen, hinweise, befunde
+        state.gelaufen = []     # C1: beim Vergleich läuft keine Prüfung
         zeige_ergebnis()
         set_status(f"Vergleich: {len(befunde)} Unterschiede")
 
@@ -376,8 +380,8 @@ def baue_uebersicht():
         gezaehlt[b["pruefung"]] = gezaehlt.get(b["pruefung"], 0) + 1
 
     # Auch Prüfungen ohne Treffer anzeigen - "0 Befunde" ist die eigentliche Aussage
-    gelaufen = [p.kurz for p in PRUEFUNGEN if pruef_vars[p.schluessel].get()]
-    for titel in gelaufen or sorted(gezaehlt):
+    gelaufen = state.gelaufen
+    for titel in gelaufen:
         _kachel(titel, gezaehlt.get(titel, 0), lambda t=titel: setze_filter(t))
 
     for titel in sorted(gezaehlt):
